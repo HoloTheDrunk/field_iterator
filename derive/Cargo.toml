@@ -1,8 +1,14 @@
 [package]
+author = "HoloTheDrunk"
 name = "field_iterator_derive"
 version = "0.1.0"
 edition = "2021"
-publish = false
+description = "Proc-macro for field_iterator"
+license = "MIT"
+repository = "https://github.com/HoloTheDrunk/field_iterator"
+readme = "README.md"
+keywords = ["iterator", "proc-macro", "derive", "reflect", "reflection"]
+categories = ["rust-patterns"]
 
 [lib]
 proc-macro = true
