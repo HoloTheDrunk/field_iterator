@@ -1,0 +1,8 @@
+[package]
+name = "field_iterator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+field_iterator_derive = { path = "derive" }
+field_iterator_trait = { path = "trait" }
