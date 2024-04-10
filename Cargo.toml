@@ -1,8 +1,15 @@
 [package]
+author = "HoloTheDrunk"
 name = "field_iterator"
 version = "0.1.0"
 edition = "2021"
+description = "A trait for iterating over the fields of a struct."
+license = "MIT"
+repository = "https://github.com/HoloTheDrunk/field_iterator"
+readme = "README.md"
+keywords = ["iterator", "proc-macro", "derive", "reflect", "reflection"]
+categories = ["rust-patterns"]
 
 [dependencies]
-field_iterator_derive = { path = "derive" }
-field_iterator_trait = { path = "trait" }
+field_iterator_derive = "0.1.0"
+field_iterator_trait = "0.1.0"
